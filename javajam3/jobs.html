@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaJam House Jobs</title>
+        <link rel="stylesheet" href="stylesheets/javajam.css">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a> </li>
+                <li><a href="music.html">Music</a> </li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Jobs at JavaJam</h2>
+        <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk(*).</p>
+        <form action="http://webdevbasics.net/scripts/javajam8.php" method="post">
+            <label for="Name">*Name:</label><br>
+            <input type="text" id="Name"> <br>
+
+            <label for="E-mail">*E-mail:</label><br>
+            <input type="email" id="E-mail"> <br>
+
+            <label for="Experience">*Experience:</label><br>
+            <textarea id="Experience" rows="3" cols="25"></textarea> <br>
+
+            <label for="Select job position">Select job position:</label>
+            <select id="Select job position">
+                <option>Barista</option>
+            </select> <br>
+
+            <label for="Preferred interview date and time">Preferred interview date and time:</label><br>
+            <input type="date" id="Preferred interview date">
+            <input type="time" id="Preferred interview time"> <br>
+
+            <label for="Upload your photo">Upload your photo:</label>
+            <input type="file" id="Upload your photo"><br>
+
+            <button>Apply now</button>
+        </form>
+        </main>
+        <footer>Copyright &copy; 2021 JavaJam Coffee House <br> <a href = "mailto:catherine@ong">catherine@ong</a></i></small></footer>
+        </div>
+    </body>
+</html>
